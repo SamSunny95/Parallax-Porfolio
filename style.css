@@ -26,7 +26,7 @@ body {
 	transform: translate(-50px,0px);
 }
 
-.about {
+.about,.skills {
 	height: 100vh;
   margin: 5%;
 }
@@ -126,11 +126,11 @@ body {
 }
 
 .sidebar-nav li a:hover,
-.sidebar-nav li.active {
+/*.sidebar-nav li.active {
   color: #fff;
   background: rgba(255,255,255,0.2);
   text-decoration: none;
-}
+}*/
 
 .sidebar-nav li a:active,
 .sidebar-nav li a:focus {

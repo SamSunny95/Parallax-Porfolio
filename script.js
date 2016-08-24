@@ -51,6 +51,12 @@ $(document).ready(function(){
         scrollTop: $(".about").offset().top},
         1000);
    });
+   $("#skills").click(function() {
+     $("#wrapper").toggleClass("active");
+     $('html,body').animate({
+        scrollTop: $(".skills").offset().top},
+        1000);
+   });
 /*Menu-toggle*/
     $("#menu-toggle").click(function(e) {
         e.preventDefault();

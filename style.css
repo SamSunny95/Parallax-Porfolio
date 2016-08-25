@@ -3,6 +3,20 @@ body {
 }
 
 /*  Loader */
+
+#loader
+{
+  height: 100vh;
+  width: 100vw;
+  background-color: darkslateblue;
+}
+#loadText
+{
+  text-align: center;
+  margin: auto;
+  top: 60%;
+  position: relative
+}
 #loading
 {
   width: 50px;

@@ -68,3 +68,8 @@ $(document).ready(function(){
 
     
 });
+
+window.addEventListener("load", function(){
+  var loader = document.getElementById("loading");
+  document.body.removeChild(loader);
+});

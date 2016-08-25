@@ -22,7 +22,7 @@ body {
   /* animation */
   @keyframes round
   {
-    from{transform: rotate(0deg)}
+    from{transform: rotate()(0deg)}
     toP{transform: rotate(360deg)}
   }
 

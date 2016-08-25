@@ -51,6 +51,12 @@ $(document).ready(function(){
         scrollTop: $(".about").offset().top},
         1000);
    });
+   $("#skills").click(function() {
+     $("#wrapper").toggleClass("active");
+     $('html,body').animate({
+        scrollTop: $(".skills").offset().top},
+        1000);
+   });
 /*Menu-toggle*/
     $("#menu-toggle").click(function(e) {
         e.preventDefault();
@@ -61,4 +67,9 @@ $(document).ready(function(){
     $('body').scrollspy({ target: '#spy', offset:80});
 
     
+});
+
+window.addEventListener("load", function(){
+  var loader = document.getElementById("loading");
+  document.body.removeChild(loader);
 });

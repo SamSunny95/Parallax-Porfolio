@@ -2,6 +2,32 @@ body {
 	margin: 0;
 }
 
+/*  Loader */
+#loading
+{
+  width: 50px;
+  height: 50px;
+  border: 5px solid #ccc;
+  border-top-color: red;
+  border-radius: 100%;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  margin: auto;
+  animation: round 2s linear infinite;
+  z-index: 1000;
+}
+  /* animation */
+  @keyframes round
+  {
+    from{transform: rotate()(0deg)}
+    toP{transform: rotate(360deg)}
+  }
+
+
+
 .main-box {
 	background-image: url("Images/LapBg.jpg");
 	background-attachment: fixed;
@@ -26,7 +52,7 @@ body {
 	transform: translate(-50px,0px);
 }
 
-.about {
+.about,.skills {
 	height: 100vh;
   margin: 5%;
 }
@@ -126,11 +152,11 @@ body {
 }
 
 .sidebar-nav li a:hover,
-.sidebar-nav li.active {
+/*.sidebar-nav li.active {
   color: #fff;
   background: rgba(255,255,255,0.2);
   text-decoration: none;
-}
+}*/
 
 .sidebar-nav li a:active,
 .sidebar-nav li a:focus {

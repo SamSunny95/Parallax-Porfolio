@@ -57,6 +57,18 @@ $(document).ready(function(){
         scrollTop: $(".skills").offset().top},
         1000);
    });
+   $("#projects").click(function() {
+     $("#wrapper").toggleClass("active");
+     $('html,body').animate({
+        scrollTop: $(".projects").offset().top},
+        1000);
+   });
+   $("#contact").click(function() {
+     $("#wrapper").toggleClass("active");
+     $('html,body').animate({
+        scrollTop: $(".contact").offset().top},
+        1000);
+   });
 /*Menu-toggle*/
     $("#menu-toggle").click(function(e) {
         e.preventDefault();
@@ -69,6 +81,7 @@ $(document).ready(function(){
     
 });
 
+// Loader
 window.addEventListener("load", function(){
   var loader = document.getElementById("loader");
   window.setTimeout(function(){
@@ -76,3 +89,4 @@ window.addEventListener("load", function(){
   },1000);
   
 });
+

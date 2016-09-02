@@ -9,6 +9,11 @@ body {
 	position: relative;
 	overflow: hidden;
 }
+.skillsLayout{
+  background-image: url("../images/gridBg.gif");
+  background-size: cover;
+  height: 100vh;
+}
 .about-content
 {
   float: right;
@@ -93,7 +98,7 @@ body {
 
 .skills,.projects,.contact {
 	height: 100vh;
-  margin: 5%;
+  padding: 2%;
   overflow: auto
 }
 

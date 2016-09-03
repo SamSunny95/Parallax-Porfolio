@@ -13,7 +13,7 @@ router.post('/', function(req,res,next){
  
   mailOpts = {
       from: req.body.name + ' &lt;' + req.body.email, //grab form data from the request body object
-      to: 'sampsunny1995@gmail.com',
+      to: 'sampsunny1996@gmail.com',
       subject: req.body.subject,
       text: req.body.message
   };
@@ -25,7 +25,7 @@ router.post('/', function(req,res,next){
       //Yay!! Email sent
       else {
         console.log("success")
-          res.render('index', { title: 'Express' });
+          res.redirect('/');
       }
   });
   transporter.close();

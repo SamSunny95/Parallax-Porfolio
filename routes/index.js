@@ -12,10 +12,10 @@ router.post('/', function(req,res,next){
   transporter = nodemailer.createTransport();
  
   mailOpts = {
-      from: req.body.name + ' &lt;' + req.body.email, //grab form data from the request body object
-      to: 'sampsunny1996@gmail.com',
-      subject: req.body.subject,
-      text: req.body.message
+      from: 'sampsunny1996@gmail.com', //grab form data from the request body object
+      to: 'sampsunny1995@gmail.com',
+      subject: 'my Website',
+      text: 'Name: '+req.body.name + '<br>Email: '+ req.body.email + ' <br>Message: ' + req.body.message
   };
   transporter.sendMail(mailOpts, function (error, response) {
       //Email not sent

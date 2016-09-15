@@ -1,10 +1,11 @@
 var express = require('express');
 var router = express.Router();
 var nodemailer = require('nodemailer');
+var Instafeed = require("instafeed.js");
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'Express' });    
 });
 
 router.post('/', function(req,res,next){

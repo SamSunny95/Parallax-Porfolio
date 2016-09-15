@@ -9,6 +9,10 @@ body {
 	position: relative;
 	overflow: hidden;
 }
+.contact {
+  background-image: url("../images/contactBg.jpg");
+  background-size: cover;
+}
 .skillsLayout{
   background-image: url("../images/gridBg.gif");
   background-size: cover;
@@ -314,4 +318,18 @@ body {
 }
 .p-88 {
   background-image: linear-gradient(50deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
+}
+
+/* instagram box*/
+
+#instafeed{
+  max-width: 520px;
+  max-height: 450px;
+  overflow: auto;
+}
+
+/* github-card */
+
+#gitBox{
+  padding-bottom: 10px;
 }

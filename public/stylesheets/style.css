@@ -13,6 +13,9 @@ body {
   background-image: url("../images/projectsBg.jpg");
   background-size: cover;
   background-attachment: fixed;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
   color: wheat;
 }
 .contact {

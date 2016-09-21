@@ -9,6 +9,12 @@ body {
 	position: relative;
 	overflow: hidden;
 }
+.projects {
+  background-image: url("../images/projectsBg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: wheat;
+}
 .contact {
   background-image: url("../images/contactBg.jpg");
   background-size: cover;
@@ -18,10 +24,24 @@ body {
   background-size: cover;
   height: 100vh;
 }
+.subskills {
+  text-align: center;
+  padding: 10%;
+  font-size: 24px;
+  color: darkslategrey;
+}
+h1{
+  font-weight: 500;
+}
+hr{
+      border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top: 4px solid;
+}
 .about-content
 {
   float: right;
-  font-size: 20px;
+  font-size: 15px;
   color: wheat;
   height: 100vh;
   background: rgba(0,0,0,.4);
@@ -30,6 +50,20 @@ body {
   padding: 50px;
   box-shadow: 0 0 50px 50px rgba(0,0,0,.4);
   overflow: auto
+}
+.myFooter {
+  position: relative;
+  width: 100vw;
+  padding: 10px;
+  text-align: center;
+  color: wheat;
+  background-color: rgba(0, 0, 0, .7);
+  font-size: 18px;
+}
+.myFooter .fa {
+  color: wheat;
+  font-size: 25px;
+  padding-right: 15px;
 }
 /*  Loader */
 

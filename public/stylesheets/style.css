@@ -19,6 +19,22 @@ body {
   overflow: hidden;
   color: wheat;
 }
+.project-layout {
+  margin: 3%;
+  font-size: 23px;
+  text-align: center
+}
+.projectdiv {
+  border-radius: 30px;
+  max-width: 100%;
+  border: 6px solid white;
+}
+img.projectdiv:hover {
+  transform: scale(1.1);
+  -webkit-transition: transform .5s ease-in-out;
+  transition: transform .5s ease-in-out
+}
+
 .contact {
   background-image: url("../images/contactBg.jpg");
   background-size: cover;
@@ -30,7 +46,7 @@ body {
 }
 .subskills {
   text-align: center;
-  padding: 10%;
+  padding: 6%;
   font-size: 24px;
   color: darkslategrey;
 }

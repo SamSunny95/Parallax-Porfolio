@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-  font-family: Comic Sans MS;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .about{
   background-image: url("../images/meBg.jpg");
@@ -340,8 +340,8 @@ hr{
   padding: 15px;
 }
 }
-
-/* avatar progress bar*/
+/*
+ avatar progress bar
 
 .avatar-container {
   position: relative;
@@ -373,7 +373,7 @@ hr{
 .p-88 {
   background-image: linear-gradient(50deg, #0BF 50%, transparent 50%, transparent), linear-gradient(270deg, #0BF 50%, #efefef 50%, #efefef);
 }
-
+*/
 /* instagram box*/
 
 #instafeed{

@@ -129,7 +129,7 @@ hr{
 
 .main-box {
 	background-image: url("../images/LapBg.jpg");
-	background-attachment: fixed;
+	background-position: 50% 0;
 	height: 100vh;
 	background-size: cover;
 	position: relative;

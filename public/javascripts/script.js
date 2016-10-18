@@ -63,6 +63,7 @@ $(document).ready(function(){
 		$('.banner').css({'-webkit-filter': 'blur('+ wScroll/100 +'px)'})
     $('.code3').css({'-webkit-filter': 'blur('+ wScroll/150 +'px)'})
 		$('.code3').css({'transform':'translate(-50px,'+ wScroll/4 +'%)'});
+    $('.main-box').css({'background-position' :'50% ' + (wScroll / 2) + 'px'});
     
     if(!isTyped)
     {

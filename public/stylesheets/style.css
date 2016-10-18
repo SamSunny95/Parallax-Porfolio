@@ -5,7 +5,7 @@ body {
 .about{
   background-image: url("../images/meBg.jpg");
   background-attachment: fixed;
-	height: 100vh;
+	min-height: 100vh;
 	background-size: cover;
 	position: relative;
 	overflow: hidden;
@@ -14,7 +14,7 @@ body {
   background-image: url("../images/projectsBg.jpg");
   background-size: cover;
   background-attachment: fixed;
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
   overflow: hidden;
   color: wheat;
@@ -42,7 +42,7 @@ img.projectdiv:hover {
 .skillsLayout{
   background-image: url("../images/gridBg.gif");
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
 }
 .subskills {
   text-align: center;
@@ -63,7 +63,7 @@ hr{
   float: right;
   font-size: 20px;
   color: wheat;
-  height: 100vh;
+  min-height: 100vh;
   background: rgba(0,0,0,.4);
   border-bottom-left-radius: 100px 50%;
   border-top-left-radius: 100px 50%;
@@ -155,7 +155,7 @@ hr{
 }
 
 .skills,.projects,.contact {
-	height: 100vh;
+	min-height: 100vh;
   padding: 2%;
   overflow: auto
 }
